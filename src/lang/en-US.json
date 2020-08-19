@@ -1,0 +1,19 @@
+{
+  "home": {
+    "navbar": {
+      "tabs": {
+        "home": "Home",
+        "whoAmI": "Who Am I",
+        "proyects": "Proyects",
+        "experience": "Experience",
+        "contact": "Contact"
+      }
+    },
+    "sections": {
+      "about": {
+        "title": "About",
+        "text": ""
+      }
+    }
+  }
+}

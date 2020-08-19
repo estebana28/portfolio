@@ -9,7 +9,8 @@
             v-for="tab in tabs"
             :key="tab.name"
             :to="tab.to"
-          >{{ tab.name }}</v-btn>
+            >{{ tab.name }}</v-btn
+          >
           <v-spacer></v-spacer>
           <div style="width: 100px">
             <v-select background-color="#94bed9" :items="items">
@@ -25,46 +26,46 @@
 </template>
 
 <script>
-import i18n from "@/plugins/i18n";
+import i18n from '@/plugins/i18n'
 
 export default {
-  name: "NavBar",
+  name: 'NavBar',
   data: () => ({
     tabs: [
       {
-        name: i18n.t("home.navbar.tabs.home"),
-        to: "/"
+        name: i18n.t('home.navbar.tabs.home'),
+        to: '/'
       },
       {
-        name: i18n.t("home.navbar.tabs.whoAmI"),
-        to: "/whoAmI"
+        name: i18n.t('home.navbar.tabs.whoAmI'),
+        to: '/whoAmI'
       },
       {
-        name: i18n.t("home.navbar.tabs.experience"),
-        to: "/experience"
+        name: i18n.t('home.navbar.tabs.experience'),
+        to: '/experience'
       },
       {
-        name: i18n.t("home.navbar.tabs.proyects"),
-        to: "/proyects"
+        name: i18n.t('home.navbar.tabs.proyects'),
+        to: '/proyects'
       },
 
       {
-        name: i18n.t("home.navbar.tabs.contact"),
-        to: "/contact"
+        name: i18n.t('home.navbar.tabs.contact'),
+        to: '/contact'
       }
     ],
     items: [
       {
-        text: "Español",
-        icon: "../assets/pictures/spain.png"
+        text: 'Español',
+        icon: '../assets/pictures/spain.png'
       },
       {
-        text: "English",
-        icon: "../assets/pictures/spain.png"
+        text: 'English',
+        icon: '../assets/pictures/spain.png'
       }
     ]
   })
-};
+}
 </script>
 
 <style lang="scss" scoped>

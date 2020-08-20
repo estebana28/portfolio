@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="navbar-bg">
     <v-app-bar class="app-navbar" flat>
       <v-container class="float-left">
         <v-row>
@@ -9,16 +9,7 @@
             v-for="tab in tabs"
             :key="tab.name"
             :to="tab.to"
-            >{{ tab.name }}</v-btn
-          >
-          <v-spacer></v-spacer>
-          <div style="width: 100px">
-            <v-select background-color="#94bed9" :items="items">
-              <template v-slot:item.append-item="{ item }">
-                <v-img :src="item.icon"></v-img>
-              </template>
-            </v-select>
-          </div>
+          >{{ tab.name }}</v-btn>
         </v-row>
       </v-container>
     </v-app-bar>

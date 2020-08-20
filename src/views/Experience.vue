@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="exp-bg">
     <NavBar />
     <v-timeline></v-timeline>
     <Leapsight />
@@ -9,17 +9,23 @@
 </template>
 
 <script>
-import Leapsight from "../components/experience/Leapsight";
-import Exo from "../components/experience/Exo";
-import HI from "../components/experience/HI";
+import NavBar from '../components/NavBar'
+import Leapsight from '../components/experience/Leapsight'
+import Exo from '../components/experience/Exo'
+import HI from '../components/experience/HI'
 
 export default {
   components: {
+    NavBar,
     Leapsight,
     Exo,
     HI
   }
-};
+}
 </script>
 
-<style></style>
+<style lang="scss">
+.exp-bg {
+  background-image: url('../assets/pictures/keyboard-v1.jpg');
+}
+</style>

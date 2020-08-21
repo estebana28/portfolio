@@ -30,7 +30,8 @@ export default {
 
 <style lang="scss">
 .exp-bg {
-  background-image: url('../assets/pictures/keyboard-v1.jpg');
+  background-image: url('../assets/pictures/desk.jpg');
+  background-position: center;
   background-repeat: repeat-y;
 }
 </style>

@@ -42,8 +42,8 @@ export default {
 
 <style lang="scss">
 .contact-bg {
-  background-image: url('../assets/pictures/keyboard-v1.jpg');
-  background-repeat: repeat-y;
+  background-image: url('../assets/pictures/keyboard-v3.jpg');
+  background-size: 100%;
 }
 .form-style {
   width: 500px;

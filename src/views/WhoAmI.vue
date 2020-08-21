@@ -1,7 +1,7 @@
 <template>
   <div class="who-bg">
     <NavBar />
-
+    <v-container></v-container>
     <Footer />
   </div>
 </template>
@@ -20,7 +20,6 @@ export default {
 
 <style lang="scss">
 .who-bg {
-  background-image: url('../assets/pictures/keyboard-v1.jpg');
-  background-repeat: repeat-y;
+  background-image: url('../assets/pictures/laptop.jpg');
 }
 </style>

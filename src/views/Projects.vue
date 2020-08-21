@@ -1,35 +1,26 @@
 <template>
-  <div class="home-bg">
+  <div class="projects-bg">
     <NavBar />
-    <About />
-    <Divider />
-    <WhatIDo />
+
     <Footer />
   </div>
 </template>
 
 <script>
 import NavBar from '../components/NavBar'
-import About from '../components/About'
-import Divider from '../components/styled/Divider'
-import WhatIDo from '../components/WhatIDo'
 import Footer from '../components/Footer'
 
 export default {
-  name: 'Home',
   components: {
     NavBar,
-    About,
-    Footer,
-    Divider,
-    WhatIDo
+    Footer
   }
 }
 </script>
 
 <style lang="scss">
-.home-bg {
+.projects-bg {
   background-image: url('../assets/pictures/keyboard-v1.jpg');
-  height: 700px;
+  background-repeat: repeat-y;
 }
 </style>

@@ -1,10 +1,10 @@
 <template>
   <div class="exp-bg">
     <NavBar />
-    <v-timeline></v-timeline>
     <Leapsight />
     <Exo />
     <HI />
+    <Footer />
   </div>
 </template>
 
@@ -13,12 +13,16 @@ import NavBar from '../components/NavBar'
 import Leapsight from '../components/experience/Leapsight'
 import Exo from '../components/experience/Exo'
 import HI from '../components/experience/HI'
+import Footer from '../components/Footer'
 
 export default {
   components: {
     NavBar,
+    Footer,
+
     Leapsight,
     Exo,
+
     HI
   }
 }
@@ -27,5 +31,6 @@ export default {
 <style lang="scss">
 .exp-bg {
   background-image: url('../assets/pictures/keyboard-v1.jpg');
+  background-repeat: repeat-y;
 }
 </style>

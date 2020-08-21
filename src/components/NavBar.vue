@@ -10,6 +10,13 @@
             :key="tab.name"
             :to="tab.to"
           >{{ tab.name }}</v-btn>
+          <v-spacer></v-spacer>
+          <v-btn class="mr-2" height="32px" width="32px" icon>
+            <v-img height="32px" width="32px" src="../assets/pictures/spain.png"></v-img>
+          </v-btn>
+          <v-btn height="28px" width="28px" icon>
+            <v-img height="28px" width="28px" src="../assets/pictures/eng.png"></v-img>
+          </v-btn>
         </v-row>
       </v-container>
     </v-app-bar>
@@ -36,8 +43,8 @@ export default {
         to: '/experience'
       },
       {
-        name: i18n.t('home.navbar.tabs.proyects'),
-        to: '/proyects'
+        name: i18n.t('home.navbar.tabs.projects'),
+        to: '/projects'
       },
 
       {
@@ -62,7 +69,7 @@ export default {
 <style lang="scss" scoped>
 .theme--light.v-app-bar.v-toolbar.v-sheet.app-navbar {
   background-color: transparent;
-  height: 75px;
+  height: 65px;
 }
 
 a:hover {

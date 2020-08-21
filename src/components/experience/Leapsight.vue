@@ -2,11 +2,11 @@
   <div class="leap-bg">
     <v-container>
       <v-row>
-        <v-col cols="4" class="mt-6">
+        <v-col cols="4" class="mt-6 slide-in-left">
           <v-img class="leap-img" src="../../assets/pictures/leap-logo.png"></v-img>
         </v-col>
         <v-col cols="2"></v-col>
-        <v-col cols="6" class="exp-text mt-16">
+        <v-col cols="6" class="exp-text mt-16 slide-in-right">
           <h2 class="text-h2 mt-4 color-lig">frontend developer</h2>
           <div class="div-divider mt-3"></div>
           <h5 class="text-h5 color-lig my-5">{{ $t('home.sections.experience.exp2-title') }}</h5>
@@ -28,7 +28,7 @@ export default {}
 <style lang="scss" scoped>
 .leap-bg {
   width: 100vw;
-  height: 600px;
+  height: 610px;
   background-color: #e6e6e6;
   opacity: 0.7;
 }
@@ -48,5 +48,65 @@ export default {}
   border-top: 3px #e86252 solid;
 }
 .exp-text {
+}
+
+//Animation
+.slide-in-right {
+  -webkit-animation: slide-in-right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  -webkit-animation: slide-in-left 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-left 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 </style>

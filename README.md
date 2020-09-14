@@ -16,6 +16,9 @@ Vuejs, Vuetify, I18n, Github, Jira...
 
 ## Version:
 
+#### 0.0.2
+  * Footer Links
+  * Vista de proyectos
 #### 0.0.1
   * Proyecto desplegado en github bajo la url que otorga Github Pages.
   * Vistas completas: Home, Experiencia, contacto.

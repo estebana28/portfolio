@@ -25,7 +25,7 @@ export default {}
 .hi-bg {
   width: 100vw;
   height: 610px;
-  background-color: #e6e6e6;
+  background-color: var(--bgWhite);
   opacity: 0.7;
 }
 .hi-img {
@@ -33,7 +33,7 @@ export default {}
   top: 25%;
 }
 .color-lig {
-  color: var(--petrolBlue);
+  color: var(--blackText);
 }
 .color-ora {
   color: var(--mateOrange);

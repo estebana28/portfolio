@@ -21,7 +21,5 @@ export default {}
   width: 500px;
   border-top: 3px var(--mateOrange) solid;
 }
-.divider-container {
-  background-color: var(--petrolBlue);
-}
+
 </style>

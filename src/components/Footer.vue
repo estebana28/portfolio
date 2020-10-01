@@ -1,7 +1,7 @@
 <template>
   <v-footer padless class="d-flex justify-center">
     <div v-for="icon in icons" :key="icon.name">
-      <v-btn class="col" :href="icon.path" target="_blank" icon x-large color="#94bed9">
+      <v-btn class="col" :href="icon.path" target="_blank" icon x-large color="#EBEBEB">
         <v-icon>{{ icon.icon }}</v-icon>
       </v-btn>
     </div>
@@ -36,7 +36,7 @@ export default {
 
 <style lang="scss">
 .theme--light.v-footer {
-  background-color: #003f5c !important;
+  background-color: var(--lightBlue) !important;
   height: 125px;
 }
 </style>

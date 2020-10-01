@@ -35,12 +35,11 @@ export default {
 
 <style lang="scss" scoped>
 .about {
-  //background-color: #003f5c;
-  color: #94bed9;
+  color: var(--blackText);
 }
 .div-divider {
   width: 75px;
-  border-top: 3px #e86252 solid;
+  border-top: 3px var(--mateOrange) solid;
 }
 .focus-in {
   -webkit-animation: text-focus-in 6s cubic-bezier(0.23, 1, 0.32, 1) both;

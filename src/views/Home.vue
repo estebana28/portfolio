@@ -1,26 +1,20 @@
 <template>
-  <div class="home-bg">
-    <NavBar />
+  <div class="bg-home">
     <About />
     <Divider />
     <WhatIDo />
-    <Footer />
   </div>
 </template>
 
 <script>
-import NavBar from '../components/NavBar'
 import About from '../components/About'
 import Divider from '../components/styled/Divider'
 import WhatIDo from '../components/WhatIDo'
-import Footer from '../components/Footer'
 
 export default {
   name: 'Home',
   components: {
-    NavBar,
     About,
-    Footer,
     Divider,
     WhatIDo
   }
@@ -28,8 +22,24 @@ export default {
 </script>
 
 <style lang="scss">
-.home-bg {
-  background-image: url('../assets/pictures/keyboard-v1.jpg');
-  height: 700px;
+.bg-home {
+  position: relative;
+  display: block;
+  width: 100vw;
+  min-height: calc(100vh - 189px);
+  z-index: 2;
+}
+
+.bg-home:after {
+  content: '';
+  background-image: url('../assets/pictures/lapbook.jpg');
+  background-size: cover;
+  opacity: .15;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 </style>

@@ -1,10 +1,10 @@
 <template>
   <div class="navbar-bg">
-    <v-app-bar class="app-navbar" flat>
+    <v-app-bar class="app-navbar" fixed>
       <v-container class="float-left">
         <v-row>
           <v-btn
-            color="#94bed9"
+            color="#006D77"
             text
             v-for="tab in tabs"
             :key="tab.name"
@@ -67,15 +67,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.theme--light.v-app-bar.v-toolbar.v-sheet.app-navbar {
-  background-color: transparent;
-  height: 65px;
+.theme--light.v-app-bar.v-toolbar.v-sheet {
+  background-color: var(--bgWhite)
 }
 
 a:hover {
-  border-bottom: 3px #e86252 solid;
+  border-bottom: 3px var(--mateOrange) solid;
 }
 .v-btn--active {
-  border-bottom: 3px #e86252 solid;
+  border-bottom: 3px var(--mateOrange) solid;
 }
 </style>

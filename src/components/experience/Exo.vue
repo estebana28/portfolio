@@ -36,24 +36,23 @@ export default {}
 .exo-bg {
   width: 100vw;
   height: 600px;
-  background-color: var(--petrolBlue);
+  background-color: var(--blackText);
   opacity: 0.7;
 }
 .leap-img {
   height: 600px;
 }
 .color-white {
-  color: #e6e6e6;
+  color: var(--bgWhite);
 }
 .color-ora {
   color: var(--mateOrange);
 }
 .div-divider {
   width: 75px;
-  border-top: 3px #e86252 solid;
+  border-top: 3px var(--mateOrange) solid;
 }
-.exp-text {
-}
+
 
 //Animation
 .slide-in-right {

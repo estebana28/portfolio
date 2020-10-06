@@ -9,13 +9,28 @@
             v-for="tab in tabs"
             :key="tab.name"
             :to="tab.to"
-          >{{ tab.name }}</v-btn>
+            >{{ tab.name }}</v-btn
+          >
           <v-spacer></v-spacer>
-          <v-btn class="mr-2" height="32px" width="32px" icon>
-            <v-img height="32px" width="32px" src="../assets/pictures/spain.png"></v-img>
+          <v-btn
+            class="mr-2"
+            height="32px"
+            width="32px"
+            icon
+            @click="langChange('es-AR')"
+          >
+            <v-img
+              height="32px"
+              width="32px"
+              src="../assets/pictures/spain.png"
+            ></v-img>
           </v-btn>
-          <v-btn height="28px" width="28px" icon>
-            <v-img height="28px" width="28px" src="../assets/pictures/eng.png"></v-img>
+          <v-btn height="28px" width="28px" icon @click="langChange('en-US')">
+            <v-img
+              height="28px"
+              width="28px"
+              src="../assets/pictures/eng.png"
+            ></v-img>
           </v-btn>
         </v-row>
       </v-container>
@@ -62,13 +77,20 @@ export default {
         icon: '../assets/pictures/spain.png'
       }
     ]
-  })
+  }),
+  methods: {
+    langChange(lang) {
+      localStorage.setItem('language', lang)
+      i18n.locale = lang
+      location.reload()
+    }
+  }
 }
 </script>
 
 <style lang="scss" scoped>
 .theme--light.v-app-bar.v-toolbar.v-sheet {
-  background-color: var(--bgWhite)
+  background-color: var(--bgWhite);
 }
 
 a:hover {

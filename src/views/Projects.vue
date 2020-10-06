@@ -1,20 +1,22 @@
 <template>
   <div class="projects-bg">
     <v-container>
-      <h1 class="text-h1 mt-7">Proyectos</h1>
+      <h1 class="text-h1 font-weight-regular mt-7">Proyectos</h1>
       <div class="div-divider mt-5"></div>
-      <ProjectList />
+      <Portfolio />
     </v-container>
-    <v-spacer></v-spacer>
   </div>
 </template>
 
 <script>
-import ProjectList from '../components/projects/ProjectList'
+import Portfolio from '../components/projects/portfolio'
 
 export default {
   components: {
-    ProjectList,
+    Portfolio
+  },
+  data() {
+    return {}
   }
 }
 </script>
@@ -34,5 +36,10 @@ export default {
 }
 h1 {
   color: var(--blackText);
+}
+
+.project-btn {
+  color: var(--mateOrange);
+  max-width: 300px;
 }
 </style>

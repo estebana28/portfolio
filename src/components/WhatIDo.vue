@@ -13,22 +13,19 @@
       </v-row> -->
       <div class="cards-container">
         <div class="box">
-          <h2>PR</h2>
-          <h3>programación</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus labore enim molestias ratione excepturi distinctio dolore cum similique corrupti, debitis, quod, atque officiis pariatur commodi quia aspernatur magnam quibusdam explicabo!</p>
-
+          <h2>{{ $t('home.whatIDo.card1.abreviation') }}</h2>
+          <h3>{{ $t('home.whatIDo.card1.title') }}</h3>
+          <p>{{ $t('home.whatIDo.card1.desc') }}</p>
         </div>
         <div class="box">
-          <h2>SO</h2>
-          <h3>soluciones</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus labore enim molestias ratione excepturi distinctio dolore cum similique corrupti, debitis, quod, atque officiis pariatur commodi quia aspernatur magnam quibusdam explicabo!</p>
-
+          <h2>{{ $t('home.whatIDo.card2.abreviation') }}</h2>
+          <h3>{{ $t('home.whatIDo.card2.title') }}</h3>
+          <p>{{ $t('home.whatIDo.card2.desc') }}</p>
         </div>
         <div class="box">
-          <h2>DE</h2>
-          <h3>desarrollo</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus labore enim molestias ratione excepturi distinctio dolore cum similique corrupti, debitis, quod, atque officiis pariatur commodi quia aspernatur magnam quibusdam explicabo!</p>
-
+          <h2>{{ $t('home.whatIDo.card3.abreviation') }}</h2>
+          <h3>{{ $t('home.whatIDo.card3.title') }}</h3>
+          <p>{{ $t('home.whatIDo.card3.desc') }}</p>
         </div>
       </div>
     </v-container>
@@ -74,15 +71,14 @@ export default {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  
 }
 .cards-container .box {
-    position: relative;
-    width: 320px;
-    background-color: #fff;
-    padding: 100px 40px 60px;
-    box-shadow: 0 15px 45px rgba(0,0,0,.1);
-
+  position: relative;
+  width: 320px;
+  background-color: #fff;
+  padding: 100px 40px 60px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
 }
 
 .cards-container .box:before {
@@ -96,6 +92,7 @@ export default {
   transform: scaleY(0);
   transform-origin: top;
   transition: transform 0.5s;
+  border-radius: 15px;
 }
 
 .cards-container .box:hover:before {
@@ -143,7 +140,4 @@ export default {
 .cards-container .box:hover p {
   color: #fff;
 }
-
-
-
 </style>

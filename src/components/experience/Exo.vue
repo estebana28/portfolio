@@ -4,17 +4,18 @@
       <v-row>
         <v-col cols="6" class="exp-text mt-6 slide-in-left">
           <h2 class="text-h2 mt-4 color-white">
-            desarrollador
-            <br />full stack
+            {{ $t('home.sections.experience.position1') }}
           </h2>
           <div class="div-divider mt-3"></div>
-          <h5 class="text-h5 color-white my-5">{{ $t('home.sections.experience.exp1-title') }}</h5>
-          <p class="color-white text-subtitle">{{ $t('home.sections.experience.exp1-text') }}</p>
+          <h5 class="text-h5 color-white my-5">
+            {{ $t('home.sections.experience.exp1-title') }}
+          </h5>
+          <p class="color-white text-subtitle">
+            {{ $t('home.sections.experience.exp1-text') }}
+          </p>
           <h6 class="text-h6 color-white">
             <span class="color-ora">
-              {{
-              $t('home.sections.experience.tech')
-              }}
+              {{ $t('home.sections.experience.tech') }}
             </span>
             {{ $t('home.sections.experience.exp1-tech') }}
           </h6>
@@ -52,7 +53,6 @@ export default {}
   width: 75px;
   border-top: 3px var(--mateOrange) solid;
 }
-
 
 //Animation
 .slide-in-right {

@@ -1,9 +1,24 @@
 <template>
   <v-footer padless class="d-flex justify-center">
     <div v-for="icon in icons" :key="icon.name">
-      <v-btn class="col" :href="icon.path" target="_blank" icon x-large color="#EBEBEB">
-        <v-icon>{{ icon.icon }}</v-icon>
-      </v-btn>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            class="col"
+            :href="icon.path"
+            target="_blank"
+            icon
+            x-large
+            color="#EBEBEB"
+            v-bind="attrs"
+            v-on="on"
+          >
+            <v-icon>{{ icon.icon }}</v-icon>
+          </v-btn>
+        </template>
+
+        <span>{{ icon.name }}</span>
+      </v-tooltip>
     </div>
   </v-footer>
 </template>

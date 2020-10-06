@@ -7,10 +7,16 @@
         </v-col>
         <v-col cols="2"></v-col>
         <v-col cols="6" class="exp-text mt-8 slide-in-right">
-          <h2 class="text-h2 mt-4 color-lig">auxiliar administrativo</h2>
+          <h2 class="text-h2 mt-4 color-lig">
+            {{ $t('home.sections.experience.position3') }}
+          </h2>
           <div class="div-divider mt-3"></div>
-          <h5 class="text-h5 color-lig my-5">{{ $t('home.sections.experience.exp3-title') }}</h5>
-          <p class="color-lig text-subtitle">{{ $t('home.sections.experience.exp3-text') }}</p>
+          <h5 class="text-h5 color-lig my-5">
+            {{ $t('home.sections.experience.exp3-title') }}
+          </h5>
+          <p class="color-lig text-subtitle">
+            {{ $t('home.sections.experience.exp3-text') }}
+          </p>
         </v-col>
       </v-row>
     </v-container>

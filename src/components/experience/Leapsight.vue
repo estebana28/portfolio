@@ -3,16 +3,27 @@
     <v-container>
       <v-row>
         <v-col cols="4" class="mt-6 slide-in-left">
-          <v-img class="leap-img" src="../../assets/pictures/leap-logo.png"></v-img>
+          <v-img
+            class="leap-img"
+            src="../../assets/pictures/leap-logo.png"
+          ></v-img>
         </v-col>
         <v-col cols="2"></v-col>
         <v-col cols="6" class="exp-text mt-16 slide-in-right">
-          <h2 class="text-h2 mt-4 color-lig">frontend developer</h2>
+          <h2 class="text-h2 mt-4 color-lig">
+            {{ $t('home.sections.experience.position2') }}
+          </h2>
           <div class="div-divider mt-3"></div>
-          <h5 class="text-h5 color-lig my-5">{{ $t('home.sections.experience.exp2-title') }}</h5>
-          <p class="color-lig text-subtitle">{{ $t('home.sections.experience.exp2-text') }}</p>
+          <h5 class="text-h5 color-lig my-5">
+            {{ $t('home.sections.experience.exp2-title') }}
+          </h5>
+          <p class="color-lig text-subtitle">
+            {{ $t('home.sections.experience.exp2-text') }}
+          </p>
           <h6 class="text-h6 color-lig">
-            <span class="color-ora">{{ $t('home.sections.experience.tech') }}</span>
+            <span class="color-ora">{{
+              $t('home.sections.experience.tech')
+            }}</span>
             {{ $t('home.sections.experience.exp2-tech') }}
           </h6>
         </v-col>

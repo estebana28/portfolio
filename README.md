@@ -12,10 +12,18 @@ Utilizo Jira con una metodologia Kanban para organizacion personal del proyecto,
 
 ## Tecnologías usadas:
 
-Vuejs, Vuetify, I18n, Github, Jira...
+HTML, CSS, Vuejs, Vuetify, I18n, Git, Github, emailjs, Jira...
 
 ## Version:
 
+#### 0.0.3
+  * Cambios estilos en toda la pagina.
+  * Footer tooltips.
+  * Refactor vista proyectos.
+  * Implementacion logica formulario de contacto.
+  * Implementacion cambio idioma.
+  * Traducción y estructura de idioma de varias vistas.
+  * Configuracion para deploy por medio de script con exaca.
 #### 0.0.2
   * Footer Links
   * Vista de proyectos

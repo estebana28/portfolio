@@ -4,15 +4,54 @@
       "tabs": {
         "home": "Home",
         "whoAmI": "Who Am I",
-        "proyects": "Proyects",
+        "proyects": "Projects",
         "experience": "Experience",
         "contact": "Contact"
+      }
+    },
+    "about": {
+      "subtitle": "front-end web developer",
+      "about": "About me",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sequi a qui doloribus. Fuga optio iusto repellat iste distinctio dignissimos. Repellat neque consectetur officia molestiae quo voluptas debitis, doloremqu rerum?"
+    },
+    "whatIDo": {
+      "card1": {
+        "abreviation": "DS",
+        "title": "design",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quibusdam optio accusamus consectetur amet, a ratione! Dolorum libero corporis ex?"
+      },
+      "card2": {
+        "abreviation": "DV",
+        "title": "development",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quibusdam optio accusamus consectetur amet, a ratione! Dolorum libero corporis ex?"
+      },
+      "card3": {
+        "abreviation": "DS",
+        "title": "digital solutions",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quibusdam optio accusamus consectetur amet, a ratione! Dolorum libero corporis ex?"
       }
     },
     "sections": {
       "about": {
         "title": "About",
         "text": ""
+      },
+      "experience": {
+        "tech": "Used Technologies:",
+        "title": "My Experiences",
+        "position1": "full-stack developer",
+        "exp1-title": "August 2019 // March 2020.",
+        "exp1-text": "Exo, where all began. Almost 8 months of non-stop formation, where i started as a trainee full-stack web developer. Here, they opened the doors to my first experience in the 'Hello World'. Day by day, i was gaining knowledge, different work styles, teamwork, cooperation and knowing how a large company works and not only making software, several sectors are brought and work together to get a final product of mass production",
+        "exp1-tech": "HTML. CSS. Javascript. Jquery. Bootstrap, Python, Django, Git,  GitLab, Docker, Linux.",
+
+        "position2": "front-end developer",
+        "exp2-title": "April 2020 // Present...",
+        "exp2-text": "Leapsight, my first big jump. I decided for the frontend and I looked for a job as Junior. My hunger fot knowledge led me to seek a change, another horizon. After several interviews and rejections, LS arrived, where there was time for everything, consultant, HR, technical interview, and others. In a middle of difficult moment (COVID-19) this company bet on me and made me an offer impossible to refuse. From start to finish the process was more than satisfactory. Here we work in team, with the latest technologies in more than challenging projects and I love it",
+        "exp2-tech": "HTML, CSS, Vuejs, Vuetify, GoogleMaps API, Git, Gitlab, SCRUM, Docker, Linux",
+
+        "position3": "administrative assistant",
+        "exp3-title": "May 2007 // Present...",
+        "exp3-text": "Finally I want to tell you about my work prior to being a developer. I worked 13 years at the Hospital Italiano as an administrative. Some may say that this experience is irrelevant, maybe they are right, but I want to explain why it is relevant to me. In this extensive work experience, I formed my professional and personal character. I learned a lot in several aspects, like teamwork, that individualities do not exist, there are too many sectors and co-partners involved and without continuous cooperation it would be almost impossible to carry out patient care. I do not want to leave aside, multidisciplinary work, where working together with other professionals, such as (nurses, doctors, maintenance workers, maids, cook, and many others), is a daily thing. Conflict resolution, coordinated decision making , and their implementation, and so on, are daily tasks in a large and highly complex hospital."
       }
     }
   }

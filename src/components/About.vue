@@ -3,20 +3,21 @@
     <v-container>
       <v-row justify="center">
         <v-col cols="5">
-          <v-img height="555" src="../assets/pictures/avatar.png" class="focus-in"></v-img>
+          <v-img
+            height="555"
+            src="../assets/pictures/avatar.png"
+            class="focus-in"
+          ></v-img>
         </v-col>
         <v-col cols="5" class="align-self-center">
           <div class="ml-4">
-            <p class="text-h3 font-weight-bold">esteban arce</p>
-            <h3 class="text-h5 mb-16">frontend web developer</h3>
-            <p class="text-h4 mb-4">About Me</p>
+            <p class="text-h2 font-weight-bold">esteban arce</p>
+            <h3 class="text-h5 mb-16">{{ $t('home.about.subtitle') }}</h3>
+            <p class="text-h4 mb-4">{{ $t('home.about.about') }}</p>
             <div class="div-divider mb-3"></div>
 
             <p class="text-h6">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
-              sequi a qui doloribus. Fuga optio iusto repellat iste distinctio
-              dignissimos. Repellat neque consectetur officia molestiae quo
-              voluptas debitis, doloremque rerum?
+              {{ $t('home.about.desc') }}
             </p>
           </div>
         </v-col>
@@ -28,19 +29,18 @@
 <script>
 export default {
   data() {
-    return {};
+    return {}
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>
 .about {
-  //background-color: #003f5c;
-  color: #94bed9;
+  color: var(--blackText);
 }
 .div-divider {
   width: 75px;
-  border-top: 3px #e86252 solid;
+  border-top: 3px var(--mateOrange) solid;
 }
 .focus-in {
   -webkit-animation: text-focus-in 6s cubic-bezier(0.23, 1, 0.32, 1) both;

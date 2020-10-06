@@ -2,11 +2,33 @@
   "home": {
     "navbar": {
       "tabs": {
-        "home": "Home",
-        "whoAmI": "Quien Soy?",
-        "proyects": "Proyectos",
+        "home": "Inicio",
+        "whoAmI": "¿Quien Soy?",
+        "projects": "Proyectos",
         "experience": "Experiencia",
         "contact": "Contacto"
+      }
+    },
+    "about": {
+      "subtitle": "desarrollador web front-end",
+      "about": "Sobre mí",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sequi a qui doloribus. Fuga optio iusto repellat iste distinctio dignissimos. Repellat neque consectetur officia molestiae quo voluptas debitis, doloremqu rerum?"
+    },
+    "whatIDo": {
+      "card1": {
+        "abreviation": "DI",
+        "title": "diseño",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quibusdam optio accusamus consectetur amet, a ratione! Dolorum libero corporis ex?"
+      },
+      "card2": {
+        "abreviation": "DE",
+        "title": "desarrollo",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quibusdam optio accusamus consectetur amet, a ratione! Dolorum libero corporis ex?"
+      },
+      "card3": {
+        "abreviation": "SD",
+        "title": "soluciones digitales",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quibusdam optio accusamus consectetur amet, a ratione! Dolorum libero corporis ex?"
       }
     },
     "sections": {
@@ -15,13 +37,19 @@
         "text": "Bienvenido a mi portfolio personal. Mi nombre es Esteban Arce y soy desarrollador de software."
       },
       "experience": {
-        "title": "My Experiences",
-        "exp1-title": "Exo: Agosto 2019 // Marzo 2020.",
-        "exp1-text": "Exo, donde empezo todo. Casi 8 meses de formación continua, donde comence como desarrollador Trainee Full stack. Aqui me abrieron las puertas a mi primera experiencia en el “Hola Mundo”. Día a dia , iba ganando y acumulando conocimientos, formas de trabajo, trabajo en equipo, cooperacion y conocer como trabaja una empresa de gran y que no solo hace software, si no, se congregan varios sectores trabajando en conjunto y como resultado final, un producto para consumo masivo. HTML. CSS. Javascript. Jquery. Bootstrap, Python, Django, Git,  GitLab, Docker, Linux.",
+        "tech": "Tecnologías Usadas:",
+        "title": "Mis Experiencias",
+        "position1": "desarrollador full-stack",
+        "exp1-title": "Agosto 2019 // Marzo 2020.",
+        "exp1-text": "Exo, donde empezo todo. Casi 8 meses de formación continua, donde comence como desarrollador Trainee Full stack. Aqui me abrieron las puertas a mi primera experiencia en el “Hola Mundo”. Día a dia , iba ganando y acumulando conocimientos, formas de trabajo, trabajo en equipo, cooperacion y conocer como trabaja una empresa de gran y que no solo hace software, si no, se congregan varios sectores trabajando en conjunto y como resultado final, un producto para consumo masivo.",
+        "exp1-tech": "HTML. CSS. Javascript. Jquery. Bootstrap, Python, Django, Git,  GitLab, Docker, Linux.",
 
-        "exp2-title": "Leapsight Abril 2020 // Presente...",
-        "exp2-text": "Leapsight, mi primer gran salto. Me decidi por el frontend y sali a buscar trabajo como Junior. Mi hambre de conocimiento me llevo a buscar un cambio, otro horizonte. Luego de varias entrevistas y varios rechazos, llego LS, donde hubo tiempo para todo, Consultora, RRHH, entrevista tecnica, etc. En medio de un momento dificil (pandemia COVID-19) esta empresa aposto en mi y me dio una oferta que fue imposible de rechazar.De principio a fin el proceso fue más que satisfactorio. Aqui trabajamos en equipo, con las ultimas tecnologias en proyectos más que desafiantes y me encanta. HTML, CSS, Vuejs, Vuetify, GoogleMaps API, Git, Gitlab, SCRUM, Docker, Linux",
-        "exp3-title": "Hospital Italiano: Mayo 2007 // Presente...",
+        "position2": "desarrollador front-end",
+        "exp2-title": "Abril 2020 // Presente...",
+        "exp2-text": "Leapsight, mi primer gran salto. Me decidi por el frontend y sali a buscar trabajo como Junior. Mi hambre de conocimiento me llevo a buscar un cambio, otro horizonte. Luego de varias entrevistas y varios rechazos, llego LS, donde hubo tiempo para todo, Consultora, RRHH, entrevista tecnica, etc. En medio de un momento dificil (pandemia COVID-19) esta empresa aposto en mi y me dio una oferta que fue imposible de rechazar.De principio a fin el proceso fue más que satisfactorio. Aqui trabajamos en equipo, con las ultimas tecnologias en proyectos más que desafiantes y me encanta que asi sea.",
+        "exp2-tech": "HTML, CSS, Vuejs, Vuetify, GoogleMaps API, Git, Gitlab, SCRUM, Docker, Linux",
+        "position3": "auxiliar administrativo",
+        "exp3-title": "Mayo 2007 // Presente...",
         "exp3-text": "Finalmente les quiero contar sobre mi trabajo previo a ser desarrollador. Trabaje 13 años en el Hospital Italiano como administrativo. Algunos diran que esa experiencia es irrelevante, quizas tengan razon, pero yo quiero explicar a continuacion porque para mi SI es relevante. En esta amplia experiencia laboral, forme mi caracter profesional y personal. Aprendi muchisimo y en variados aspectos. Trabajo en equipo, las infividualidades no existen, hay muchos sectores y coimpañeros involucrados y sin una cooperacion continua seria casi implosible llevar a cabo la atención a los pacientes. No quiero dejar de lado, el trabajo multidisciplinario, donde trabajar en conjunto con otros profesionales, tales como (enfermeros, médicos, mentenimiento, mucamas, cocina, etc) , es cosa del día a dia.. Resolución de conflictos, toma de decisiones coordinadas, e implementación de las mismas, etc, son tareas diarias en un hospital grande y de alta complejidad"
       }
     }

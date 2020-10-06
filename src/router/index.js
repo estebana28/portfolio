@@ -1,21 +1,40 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
-import Experience from "../views/Experience.vue";
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import Home from '../views/Home.vue'
+import Experience from '../views/Experience.vue'
+import WhoAmI from '../views/WhoAmI.vue'
+import Projects from '../views/Projects.vue'
+import Contact from '../views/Contact.vue'
 
-Vue.use(VueRouter);
+Vue.use(VueRouter)
 
 const routes = [
   {
-    path: "/",
-    name: "Home",
-    component: Home,
+    path: '/',
+    name: 'Home',
+    component: Home
   },
   {
-    path: "/experience",
-    name: "Experience",
-    component: Experience,
+    path: '/experience',
+    name: 'Experience',
+    component: Experience
   },
+  {
+    path: '/whoami',
+    name: 'WhoAmI',
+    component: WhoAmI
+  },
+  {
+    path: '/projects',
+    name: 'Projects',
+    component: Projects
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
+  }
+
   // {
   //   path: "/about",
   //   name: "About",
@@ -25,10 +44,10 @@ const routes = [
   //   component: () =>
   //     import(/* webpackChunkName: "about" */ "../views/About.vue")
   // }
-];
+]
 
 const router = new VueRouter({
-  routes,
-});
+  routes
+})
 
-export default router;
+export default router

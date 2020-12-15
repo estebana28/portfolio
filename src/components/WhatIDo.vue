@@ -11,18 +11,18 @@
           </div>
         </v-col>
       </v-row> -->
-      <div class="cards-container">
-        <div class="box">
+      <div class="cards-container d-flex">
+        <div class="box cols-12 md-4 mb-2">
           <h2>{{ $t('home.whatIDo.card1.abreviation') }}</h2>
           <h3>{{ $t('home.whatIDo.card1.title') }}</h3>
           <p>{{ $t('home.whatIDo.card1.desc') }}</p>
         </div>
-        <div class="box">
+        <div class="box cols-12 md-4 mb-2">
           <h2>{{ $t('home.whatIDo.card2.abreviation') }}</h2>
           <h3>{{ $t('home.whatIDo.card2.title') }}</h3>
           <p>{{ $t('home.whatIDo.card2.desc') }}</p>
         </div>
-        <div class="box">
+        <div class="box cols-12 md-4 mb-2">
           <h2>{{ $t('home.whatIDo.card3.abreviation') }}</h2>
           <h3>{{ $t('home.whatIDo.card3.title') }}</h3>
           <p>{{ $t('home.whatIDo.card3.desc') }}</p>
@@ -67,7 +67,7 @@ export default {
 }
 
 .cards-container {
-  width: 1100px;
+  width: 80vw;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

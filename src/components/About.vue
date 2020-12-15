@@ -1,29 +1,27 @@
 <template>
-  <div class="about">
-    <v-container>
-      <v-row justify="center">
-        <v-col cols="5">
-          <v-img
-            height="555"
-            src="../assets/pictures/avatar.png"
-            class="focus-in"
-          ></v-img>
-        </v-col>
-        <v-col cols="5" class="align-self-center">
-          <div class="ml-4">
-            <p class="text-h2 font-weight-bold">esteban arce</p>
-            <h3 class="text-h5 mb-16">{{ $t('home.about.subtitle') }}</h3>
-            <p class="text-h4 mb-4">{{ $t('home.about.about') }}</p>
-            <div class="div-divider mb-3"></div>
+  <v-container class="about">
+    <v-row justify="center">
+      <v-col class="col-4 offset-1">
+        <v-img
+          height="600"
+          src="../assets/pictures/avatar.png"
+          class="focus-in"
+        ></v-img>
+      </v-col>
+      <v-col class="align-self-center col-4 offset-1">
+        <div class="ml-4">
+          <h2 class="text-h2 font-weight-bold">esteban arce</h2>
+          <h3 class="text-h5 mb-16">{{ $t('home.about.subtitle') }}</h3>
+          <h4 class="text-h4 mb-4">{{ $t('home.about.about') }}</h4>
+          <div class="div-divider mb-3"></div>
 
-            <p class="text-h6">
-              {{ $t('home.about.desc') }}
-            </p>
-          </div>
-        </v-col>
-      </v-row>
-    </v-container>
-  </div>
+          <h6 class="text-h6">
+            {{ $t('home.about.desc') }}
+          </h6>
+        </div>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>

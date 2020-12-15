@@ -34,7 +34,7 @@ export default {
   content: '';
   background-image: url('../assets/pictures/lapbook.jpg');
   background-size: cover;
-  opacity: .15;
+  opacity: 0.15;
   top: 0;
   left: 0;
   bottom: 0;

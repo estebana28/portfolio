@@ -12,7 +12,7 @@
     "about": {
       "subtitle": "desarrollador web front-end",
       "about": "Sobre mí",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sequi a qui doloribus. Fuga optio iusto repellat iste distinctio dignissimos. Repellat neque consectetur officia molestiae quo voluptas debitis, doloremqu rerum?"
+      "desc": "Hola! Soy Esteban, desarrollador autodidacta enfocado en frontend. Tengo experiencia tanto trabajando para una empresa o en forma independiente como freelance. Siempre estudiando y aprendiendo, ya sea en tutoriales, cursos o de mis pares. Te doy la bienvenida a mi portfolio personal..."
     },
     "whatIDo": {
       "card1": {
@@ -49,8 +49,18 @@
         "exp2-text": "Leapsight, mi primer gran salto. Me decidi por el frontend y sali a buscar trabajo como Junior. Mi hambre de conocimiento me llevo a buscar un cambio, otro horizonte. Luego de varias entrevistas y varios rechazos, llego LS, donde hubo tiempo para todo, Consultora, RRHH, entrevista tecnica, etc. En medio de un momento dificil (pandemia COVID-19) esta empresa aposto en mi y me dio una oferta que fue imposible de rechazar.De principio a fin el proceso fue más que satisfactorio. Aqui trabajamos en equipo, con las ultimas tecnologias en proyectos más que desafiantes y me encanta que asi sea.",
         "exp2-tech": "HTML, CSS, Vuejs, Vuetify, GoogleMaps API, Git, Gitlab, SCRUM, Docker, Linux",
         "position3": "auxiliar administrativo",
-        "exp3-title": "Mayo 2007 // Presente...",
+        "exp3-title": "Mayo 2007 // Octubre 2020",
         "exp3-text": "Finalmente les quiero contar sobre mi trabajo previo a ser desarrollador. Trabaje 13 años en el Hospital Italiano como administrativo. Algunos diran que esa experiencia es irrelevante, quizas tengan razon, pero yo quiero explicar a continuacion porque para mi SI es relevante. En esta amplia experiencia laboral, forme mi caracter profesional y personal. Aprendi muchisimo y en variados aspectos. Trabajo en equipo, las infividualidades no existen, hay muchos sectores y coimpañeros involucrados y sin una cooperacion continua seria casi implosible llevar a cabo la atención a los pacientes. No quiero dejar de lado, el trabajo multidisciplinario, donde trabajar en conjunto con otros profesionales, tales como (enfermeros, médicos, mentenimiento, mucamas, cocina, etc) , es cosa del día a dia.. Resolución de conflictos, toma de decisiones coordinadas, e implementación de las mismas, etc, son tareas diarias en un hospital grande y de alta complejidad"
+      },
+      "contact": {
+        "title": "Formulario de contacto",
+        "name": "Nombre Completo",
+        "email": "Email",
+        "reason": "Motivo de contacto",
+        "detail": "Detalle su motivo",
+        "clear": "Limpiar",
+        "cancel": "Volver",
+        "send": "Enviar"
       }
     }
   }

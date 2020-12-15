@@ -4,7 +4,7 @@
       "tabs": {
         "home": "Home",
         "whoAmI": "Who Am I",
-        "proyects": "Projects",
+        "projects": "Projects",
         "experience": "Experience",
         "contact": "Contact"
       }
@@ -12,7 +12,7 @@
     "about": {
       "subtitle": "front-end web developer",
       "about": "About me",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sequi a qui doloribus. Fuga optio iusto repellat iste distinctio dignissimos. Repellat neque consectetur officia molestiae quo voluptas debitis, doloremqu rerum?"
+      "desc": "Hi! I'm Esteban, a self-taught frontend developer. I have experience working for a company or independently as a freelancer. Always studying and learning, whether in tutorials, courses or from my peers. I welcome you to my personal portfolio..."
     },
     "whatIDo": {
       "card1": {
@@ -50,8 +50,18 @@
         "exp2-tech": "HTML, CSS, Vuejs, Vuetify, GoogleMaps API, Git, Gitlab, SCRUM, Docker, Linux",
 
         "position3": "administrative assistant",
-        "exp3-title": "May 2007 // Present...",
+        "exp3-title": "May 2007 // October 2020",
         "exp3-text": "Finally I want to tell you about my work prior to being a developer. I worked 13 years at the Hospital Italiano as an administrative. Some may say that this experience is irrelevant, maybe they are right, but I want to explain why it is relevant to me. In this extensive work experience, I formed my professional and personal character. I learned a lot in several aspects, like teamwork, that individualities do not exist, there are too many sectors and co-partners involved and without continuous cooperation it would be almost impossible to carry out patient care. I do not want to leave aside, multidisciplinary work, where working together with other professionals, such as (nurses, doctors, maintenance workers, maids, cook, and many others), is a daily thing. Conflict resolution, coordinated decision making , and their implementation, and so on, are daily tasks in a large and highly complex hospital."
+      },
+      "contact": {
+        "title": "Contact form",
+        "name": "Full name",
+        "email": "Email",
+        "reason": "Subject",
+        "detail": "Message",
+        "clear": "Clear",
+        "cancel": "Return",
+        "send": "Send"
       }
     }
   }

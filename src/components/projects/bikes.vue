@@ -1,16 +1,11 @@
 <template>
   <v-container>
     <v-row class="my-16">
-      <v-col class="col-6 offset-1">
-        <v-card elevation="24">
-          <v-img :src="project.img"></v-img>
-        </v-card>
-      </v-col>
-      <v-col class="d-flex flex-column col-3 offset-1">
-        <h1 class="text-h2 font-weight-bold">{{ project.title }}</h1>
+      <v-col class="d-flex flex-column justify-center offset-1 col-3">
+        <h2 class="text-h2 font-weight-bold">{{ project.title }}</h2>
         <div class="title-divider my-3"></div>
         <p>{{ project.desc }}</p>
-        <h4 class="text-h6">Tecnologías usadas:</h4>
+        <h6 class="text-h6">Tecnologías usadas:</h6>
 
         <v-row class="d-flex justify-space-between flex-nowrap">
           <v-col
@@ -44,23 +39,28 @@
           >Ver Sitio</v-btn
         >
       </v-col>
+      <v-col class="col-6 offset-1">
+        <v-card elevation="24">
+          <v-img :src="project.img"></v-img>
+        </v-card>
+      </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
-import project01 from '../../assets/pictures/portfolio.jpg'
+import project02 from '../../assets/pictures/bikelist.png'
 
 export default {
   component: {
-    project01
+    project02
   },
   data() {
     return {
       project: {
-        title: 'Portfolio',
+        title: 'Bikelist',
         desc:
-          'Portfolio personal. Utilice vuejs como framework de javascript. Librerias como i18n para internacionalización, emailjs para manejor de formulario de contacto y vuetify para manejo de UI.',
+          'Proyecto de practica utilizando firebase como base de datos y haciendo modelo CRUD. ',
         icons: [
           { name: 'html', icon: 'mdi-language-html5', color: '#e96228' },
           { name: 'css', icon: 'mdi-language-css3', color: '#28a3d9' },
@@ -69,13 +69,12 @@ export default {
             icon: 'mdi-language-javascript',
             color: '#f7da03'
           },
-          { name: 'vuejs', icon: 'mdi-vuejs', color: '#29bb7c' },
-          { name: 'vuetify', icon: 'mdi-vuetify', color: '#77c0f7' },
           { name: 'git', icon: 'mdi-git', color: '#eb4d28' },
-          { name: 'github', icon: 'mdi-github', color: '#303030' }
+          { name: 'github', icon: 'mdi-github', color: '#303030' },
+          { name: 'firebase', icon: 'mdi-firebase', color: '#F4C62F' }
         ],
-        url: 'https://estebana28.github.io/portfolio/',
-        img: project01
+        url: 'https://estebana28.github.io/bikes/',
+        img: project02
       }
     }
   }
@@ -84,6 +83,8 @@ export default {
 
 <style lang="scss">
 h4,
+h6,
+h2,
 h1 {
   color: var(--lightBlue);
 }
